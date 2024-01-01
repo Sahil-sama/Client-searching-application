@@ -1,9 +1,1 @@
-cd backend
-npm install
-npm start
-
-
-cd frontend
-npm install
-npm start
-
+An application where user can search the client using name, name of the company and city. It provides full deatils of the client
