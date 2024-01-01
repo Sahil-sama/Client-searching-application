@@ -1,0 +1,99 @@
+
+.user-info {
+  background-color: #f7e9c5;
+  border: 2px solid #ffa200;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-info.expanded {
+  background-color: #f0f0f0;
+  border: 2px solid #4caf50;
+  padding: 20px;
+}
+
+.user-summary {
+  flex: 1;
+  padding-right: 20px;
+}
+
+button {
+  background-color: #eb0b0b;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 25px;
+  cursor: pointer;
+  align-self: flex-start;
+  transform: scale(1);
+  margin-right: 60px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+  transform: scale(1.1);
+}
+
+.user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Differentiate Address, Geo Location, and Company sections */
+.section {
+  padding: 15px;
+  background-color: #f7e9c5;
+  border: 2px solid #ffa200;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.section h3 {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Differentiate User Headings and Data */
+.user-heading {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+/* Differentiate Section Headings and Data */
+.section-heading {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+.section-data {
+  padding: 15px;
+  background-color: #f7e9c5;
+  border: 2px solid #ffa200;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+
+/* Hover effect for the entire user card */
+.user-info:hover {
+  transform: scale(1.04);
+  transition: transform 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Enlarge the button on hover */
+button:hover {
+  background-color: #f12323;
+  transform: scale(1.2);
+}
